@@ -2,6 +2,13 @@
 
 This project demonstrates a microservices-based e-commerce application built using ASP.NET Core.
 
+## Design Notes
+- Services are independently deployable
+- Communication is via REST APIs
+- Same Database usage
+- Focus is on learning service separation and API contracts
+
+
 ## Services
 - Auth Service – User authentication & JWT
 - Product Service – Product catalog
